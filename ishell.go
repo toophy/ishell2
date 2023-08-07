@@ -17,8 +17,8 @@ import (
 	"unicode"
 
 	"github.com/abiosoft/readline"
+	"github.com/anmitsu/go-shlex"
 	"github.com/fatih/color"
-	"github.com/flynn-archive/go-shlex"
 )
 
 const (
