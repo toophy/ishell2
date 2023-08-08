@@ -16,7 +16,7 @@ func (ic iCompleter) Do(line []rune, pos int) (newLine [][]rune, length int) {
 		return nil, len(line)
 	}
 	var words []string
-	if w, err := shlex.Split(string(line)); err == nil {
+	if w, err := shlex.Split(string(line), true); err == nil {
 		words = w
 	} else {
 		// fall back
