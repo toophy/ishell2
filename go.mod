@@ -1,4 +1,4 @@
-module github.com/toophy/ishell
+module github.com/toophy/ishell2
 
 go 1.19
 

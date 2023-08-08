@@ -3,8 +3,8 @@ package ishell_test
 import (
 	"testing"
 
-	"github.com/toophy/ishell"
 	"github.com/stretchr/testify/assert"
+	"github.com/toophy/ishell2"
 )
 
 func newCmd(name string, help string) *ishell.Cmd {

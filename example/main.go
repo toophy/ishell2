@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/toophy/ishell"
+	"github.com/toophy/ishell2"
 )
 
 func main() {
